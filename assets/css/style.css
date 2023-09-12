@@ -1,0 +1,87 @@
+.topcontainer{
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.topcontainer-timer{
+    float: right;
+    padding-right: 30px;
+}
+
+.container{
+    /* width: 800px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    /* justify-content: center; */
+    /* border: 5px solid black;
+    font-size: 50px;
+    flex-direction: column;  */
+}
+.card-header{
+    /* text-align: center; */
+}
+.text{
+    padding-top: 20px;
+}
+
+.container {
+    display: grid;
+    margin: 12vh auto;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 80vw;
+    height: 40vw;
+    background-color: #f0ead6;
+    padding-top: 20px;
+  }
+  
+  .card-header {
+    display:block;
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    padding-bottom: 40px;
+  }
+  
+  .quiz-btn.btn {
+    font-size: 15px;
+    width: 155px;
+    height: 50px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+  .btn:hover {
+    color: white;
+    background-color: lightseagreen;
+}
+
+.btn{
+    font-size: 15px;
+    width: 90px;
+    height: 50px;
+}
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+  /* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    /* Styles for screens smaller than 600px */
+    .container {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    /* Styles for screens between 601px and 900px */
+    .container {
+        font-size: 1.2rem;
+    }
+}
