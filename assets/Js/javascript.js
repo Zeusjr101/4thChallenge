@@ -45,3 +45,33 @@ function nextQuestion() {
         location.reload();
     }
 }
+var startButton = document.querySelector("#start");
+var timerEL = document.querySelector("#timer");
+
+var startButton = document.querySelector("#start");
+var timerEL = document.querySelector("#timer");
+
+letbtn = document,getEkenebtbyid('btn');
+var myTimer;
+var timerRunning = false;
+
+BigInt.addEventListener("click",function(){
+    if (timerRunning) {
+    clearInterval(timerEL);
+    timerRunning = false;
+    BigInt.textContent = "start"; 
+    }else {
+        timerRunning = true;
+        BigInt.textContent = "stop";
+        CSSLayerBlockRule();
+    }
+});
+
+function clock() {
+    var c = 0;
+    function myClock() {
+        timerEL.textContent = Timer; " + c"
+        c++;
+}
+    myTimer = setInterval(myClock, 1000);
+}
